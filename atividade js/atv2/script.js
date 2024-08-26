@@ -32,7 +32,7 @@ function calc(id1, id2, respid, operador){
         
                 
         
-        document.getElementById(respid)
+        document.getElementById(respid).textContent = resultado
 
     }
     
